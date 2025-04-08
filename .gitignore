@@ -1,3 +1,11 @@
-.DS_Store
-
+**/.DS_Store
+*.o
 .vscode
+
+## make targets ##
+
+00/ex00/megaphone
+00/ex01/phone_book
+00/ex02/account
+
+## end make target ##
