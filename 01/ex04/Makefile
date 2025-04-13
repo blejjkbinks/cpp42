@@ -1,6 +1,6 @@
 NAME = sed
 
-CC = g++ -Werror -Wextra -Wall -std=c++98
+CC = c++ -Werror -Wextra -Wall -std=c++98
 
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)

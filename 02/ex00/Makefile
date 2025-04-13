@@ -1,4 +1,4 @@
-NAME = harl
+NAME = 
 
 CC = c++ -Werror -Wextra -Wall -std=c++98
 
