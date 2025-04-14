@@ -1,4 +1,4 @@
-NAME = fixed
+NAME = bsp
 
 CC = c++ -Werror -Wextra -Wall -std=c++98
 

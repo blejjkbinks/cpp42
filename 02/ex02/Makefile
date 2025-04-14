@@ -1,4 +1,4 @@
-NAME = fixed
+NAME = talking
 
 CC = c++ -Werror -Wextra -Wall -std=c++98
 
