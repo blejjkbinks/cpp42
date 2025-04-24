@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <cstring>
 
 int	printUsage(const char *s);
 
