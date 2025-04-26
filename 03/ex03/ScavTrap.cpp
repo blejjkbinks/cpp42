@@ -19,6 +19,7 @@ ScavTrap::ScavTrap(std::string name)
 }
 
 ScavTrap::ScavTrap(ScavTrap const &src)
+	: ClapTrap(src)
 {
 	std::cout << "ScavTrap copied in the image of \"" << src._name << "\"" << std::endl;
 	*this = src;
