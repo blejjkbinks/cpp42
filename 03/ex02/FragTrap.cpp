@@ -16,6 +16,7 @@ FragTrap::FragTrap(std::string name)
 }
 
 FragTrap::FragTrap(FragTrap const &src)
+	: ClapTrap(src)
 {
 	std::cout << "FragTrap copied in the image of \"" << src._name << "\"" << std::endl;
 	*this = src;
