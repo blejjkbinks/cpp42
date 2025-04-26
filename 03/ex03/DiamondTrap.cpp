@@ -22,6 +22,7 @@ DiamondTrap::DiamondTrap(std::string name)
 }
 
 DiamondTrap::DiamondTrap(DiamondTrap const &src)
+	: ClapTrap(src), ScavTrap(src), FragTrap(src)
 {
 	std::cout << "DiamondTrap copied in the image of \"" << src._name << "\"" << std::endl;
 	*this = src;
