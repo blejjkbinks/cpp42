@@ -1,13 +1,13 @@
 #include "HumanB.hpp"
 
 HumanB::HumanB()
-	: name(""), weapon(nullptr)
+	: name(""), weapon(0)
 {
 	std::cout << "constructing unnamed humanB" << std::endl;
 }
 
 HumanB::HumanB(const std::string &name)
-	: name(name), weapon(nullptr)
+	: name(name), weapon(0)
 {
 	std::cout << "constructing a humanB called " << name << std::endl;
 }
